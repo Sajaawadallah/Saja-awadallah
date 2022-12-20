@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/panel.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+
+</head>
+
+<style>
+
+</style>
+<body  id="body-pd" class="body-pd " style="background-color: #F5F5F5 !important;"  >
+    <div class="offcanvas offcanvas-top  "  style="background-color: #F5F5F5;  height: 70%;" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header" style="background-color: #395B64;">
+            <h5 class="fw-bolder text-white">دكان</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        <div class="offcanvas-body d-flex  ">
+            <div class="d-flex flex-column">
+
+
+        <div class="d-flex border-1 border-bottom pb-5 mt-4">
+            <div class="userimg">
+                <img src="images/472DA669-2BB0-43A6-AFBD-B4E635F1C234.PNG" class="img-fluid w-100" alt="">
+            </div>
+
+            <div class="d-flex flex-column ms-4">
+                <h5 class="fw-bolder mt-3 mb-1 ">علي شاهين</h5>
+                <p class="droptext  mb-4 text-black-50 ms-2 ">متجر العراق</p>
+                <div class="d-flex  gap-3">
+                    <div class="dropbtn1 py-1 px-3">
+                        <a href="#">باقة مني</a>
+                    </div>
+                    <div class="dropbtn2 py-1 px-2">
+                     <a href="#"> عرض المتجر</a>
+                 </div>
+
+              
+                </div>
+            </div>
+
+        </div>
+             
+              
+           
+                 <div class="personfile mt-3">
+                     <a href="#"  > <i class='bi bi-person me-1'></i> <span >الملف الشخصي</span> </a>
+                 </div>
+                 <div class="logout my-3">
+                     <a href="#"  > <i class="fa fa-sign-out me-1"></i> <span >تسجيل الخروج</span> </a>
+                 </div>
+                 
+               
+            </div>
+        </div>
+      </div>
+    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header" style="background-color: #395B64;">
+            <h5 class="fw-bolder text-white">دكان</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+     <div class="offcanvas-body mt-3">
+        <nav class="nav  ">
+            <div> <a href="#" class="nav_logo">
+                 <div class="header_img "> <img src="images/472DA669-2BB0-43A6-AFBD-B4E635F1C234.PNG" alt=""> </div> <span class="nav_logo-name " style="color: #395B64;">متجر العراق</span> </a>
+                <div class="nav_list"> 
+                    <a href="conpanel.html" class="nav_link  "> <i class='bi bi-house-door nav_icon'></i> <span class="nav_name">الرئيسية</span> </a>
+                    <a href="conpanel product.html" class="nav_link  "> <i class='bi bi-boxes nav_icon'></i> <span class="nav_name">المنتجات</span> </a>
+                    <a href="conpanelkinds.html" class="nav_link  "> <i class='bi bi-grid nav_icon'></i> <span class="nav_name">التصنيفات</span> </a>
+            <div class="d-flex  " style="gap: 10rem;"><a href="conpanelorders.html" class="nav_link  "> <i class='bi bi-card-checklist nav_icon'></i> <span class="nav_name">الطلبات</span> </a> <div class="mt-1 order-num">8</div></div>
+                    <a href="conpanelclints .html" class="nav_link  "> <i class='bi bi-person nav_icon'></i> <span class="nav_name">العملاء</span> </a>
+                    <a href="conpanelreport.html" class="nav_link active "> <i class='bi bi-clipboard-data nav_icon'></i> <span class="nav_name">التقارير</span> </a>
+                    <a href="conpanelpay.html" class="nav_link "> <i class='bi bi-wallet2 nav_icon'></i> <span class="nav_name">المحفظة والفواتير</span> </a>
+                    <a href="conpanelpages.html" class="nav_link "> <i class='bi bi-person-video2 nav_icon'></i> <span class="nav_name">الصفحات التعريفية</span> </a>
+                    <a href="conpanelrate.html" class="nav_link "> <i class='bi bi-star-half nav_icon'></i> <span class="nav_name">التقييمات</span> </a>
+                    <a href="#" class="nav_link "> <i class='bi bi-building-gear nav_icon'></i> <span class="nav_name">إعداد المتجر</span> </a>
+                    <a href="conpanel them.html" class="nav_link "> <i class='bi bi-shop nav_icon'></i> <span class="nav_name">تصميم المتجر</span> </a>
+                    <a href="conpanel pag.html" class="nav_link "> <i class='bi bi-ui-checks-grid nav_icon'></i> <span class="nav_name">الباقات</span> </a>
+                    <a href="conpanelaccount .html" class="nav_link "> <i class='bi bi-gear nav_icon'></i> <span class="nav_name">اعدادات الحساب</span> </a>
+       
+                    </div>
+           
+        </nav>
+     </div>
+      </div>
+
+      <div class="modal fade "  style="background-color: rgba(0, 0, 0, 0.582);"  id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <button type="button" class="btn-close shadow-none mt-0 position-absolute bg-white fs-2" style="left: 70%; top: 8%;"data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog   modal-dialog-centered ">
+         
+          <div class="modal-content  " style="background-color: transparent; border: 0px;">
+    
+            <div class="modal-body   "  >
+              <form>
+                <div class="container  mx-auto text-center">
+               
+                  <div class="row my-5 " >
+                    <form action="#" class=" search">
+                        <div class="input-group topserch">
+                          <input type="text" class="form-control   " placeholder="البحث " style="margin-bottom: 0px !important;" aria-label="Recipient's username" aria-describedby="button-addon2">
+                          <select class="form-select m-0 fs-6" aria-label="Default select example">
+                              <option selected>الطلبات</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          <button class="btn btn-secondary py-2 px-4 " type="button" id="button-addon2">بحث</button>
+                        
+                        </div>
+                        
+                        
+                       </form>
+                  </div>
+                </div>
+            
+             
+             
+             
+              </form>
+             
+            </div>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade  " id="exampleModalrate10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  " >
+          <div class="modal-content" style="border-radius: 24px !important;">
+          
+            <div class="modal-body  py-5 px-4" >
+          
+          
+              <form action="#" class="delet">
+                  <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="images/Group 1000003014.png" alt="">
+                    <h2 class="my-4" style="color: #FF9000; font-weight: bolder;">تأكيد عملية الحذف !</h2>
+                  </div>
+                <div class=" justify-content-center gap-4  d-flex flex-sm-row flex-column mb-3" >
+                  <button type="submit  " class="btn btn-secondary fw-bold mt-3 py-2 " >تأكيد</button>
+                  <button type="submit  " data-bs-dismiss="modal" class="btn btn-outline-danger fw-bold mt-3 py-2 " >إلغاء</button>
+                </div>
+              </form>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+      <div class="modal fade  " id="exampleModalrate11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  " >
+          <div class="modal-content" style="border-radius: 0px !important;">
+          
+            <div class="modal-body "  style="padding: 3rem 5rem;">
+          
+          
+              <form action="#" class="delet">
+                  <div class="d-flex flex-column justify-content-center align-items-center ">
+              
+                    <h2 class="my-4" style=" color: #261E27; font-weight: bolder;">تفاصيل المنتج</h2>
+                  </div>
+     <div class="my-4">
+      <div class=" justify-content-around align-items-center  d-flex mb-3" >
+        <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >رقم المنتج</h6>
+        <p class="mb-0">001234</p>
+        </div>
+        <div class=" justify-content-around align-items-center  d-flex mb-3" >
+          <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >الاسم</h6>
+          <p class="mb-0">ورد أحمر صناعي	</p>
+          </div>
+          <div class=" justify-content-around align-items-center  d-flex mb-3" >
+            <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >رمز المنتج	 </h6>
+            <p class="mb-0">78888888</p>
+            </div>
+            <div class=" justify-content-around align-items-center  d-flex mb-3" >
+              <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >الكمية</h6>
+              <p class="mb-0">  80	</p>
+              </div>
+              <div class=" justify-content-around align-items-center  d-flex mb-3" >
+                <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >السعر	 </h6>
+                <p class="mb-0">05	
+                </p>
+                </div>
+                <div class=" justify-content-around align-items-center  d-flex mb-3" >
+                  <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >عدد الطلبات		</h6>
+                  <p class="mb-0"> 250 	</p>
+                  </div>
+     </div>
+     <div class=" justify-content-center  d-flex my-5" >
+      <button type="submit  " data-bs-dismiss="modal" class="btn btn-info fw-bold mt-2 py-2 px-5" >اغلاق</button>
+    </div>
+    
+              </form>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+      <div class="modal fade  " id="exampleModalrate110" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  " >
+          <div class="modal-content" style="border-radius: 0px !important;">
+          
+            <div class="modal-body "  style="padding: 3rem 5rem;">
+          
+          
+              <form action="#" class="delet">
+                  <div class="d-flex flex-column justify-content-center align-items-center ">
+              
+                    <h2 class="my-4" style=" color: #261E27; font-weight: bolder;">تفاصيل العميل</h2>
+                  </div>
+     <div class="my-4">
+      <div class=" justify-content-around align-items-center  d-flex mb-3" >
+        <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >الإسم	</h6>
+        <p class="mb-0">محمد علي الشحي	</p>
+        </div>
+        <div class=" justify-content-around align-items-center  d-flex mb-3" >
+          <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >تاريخ التسجيل	</h6>
+          <p class="mb-0">8/10/2022		</p>
+          </div>
+          <div class=" justify-content-around align-items-center  d-flex mb-3" >
+            <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >رقم الجوال		 </h6>
+            <p class="mb-0">0564842446	</p>
+            </div>
+            <div class=" justify-content-around align-items-center  d-flex mb-3" >
+              <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >البريد الإلكتروني	</h6>
+              <p class="mb-0">  ali@gmail.com		</p>
+              </div>
+              <div class=" justify-content-around align-items-center  d-flex mb-3" >
+                <h6 class="mb-0 fw-bolder" style="color: #54BAB9;" >عدد الطلبات		 </h6>
+                <p class="mb-0">4	
+                </p>
+                </div>
+      
+     </div>
+     <div class=" justify-content-center  d-flex my-5" >
+      <button type="submit  " data-bs-dismiss="modal" class="btn btn-info fw-bold mt-2 py-2 px-5" >اغلاق</button>
+    </div>
+    
+              </form>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade newmo addpro " id="exampleModalrate12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  " >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <i class="bi bi-plus me-1"></i>
+      
+                اضافة
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body  py-4 px-4" > 
+          <div class="container">
+            <form action="#"  class="billingform">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important;" class="form-label " >الاسم  </label>
+                      <input type="text" class="form-control" id="exampleInputEmail4" placeholder=" الاسم" aria-describedby="emailHelp" required>
+              
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important;" class="form-label " >البريداللكتروني  </label>
+                      <input type="email" class="form-control" id="exampleInputEmail4" placeholder=" البريداللكتروني" aria-describedby="emailHelp" required>
+              
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="mobile_code" style="font-size: 14px !important;" class="form-label " > رقم الجوال   </label>
+                      <div class="form-group">
+                        <input type="text" id="mobile_code" class="form-control" placeholder="رقم الجوال" name="name">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important; color: #8C8C8C;" class="form-label " >تاريخ الميلاد  </label>
+                      <input type="date" class="form-control" id="exampleInputEmail4" placeholder=" تاريخ الميلاد" aria-describedby="emailHelp" required>
+              
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail33" style="font-size: 14px !important;" class="form-label " > المدينة  </label>
+                      <select class="form-select" style="padding: 0.7rem 0.75rem;" aria-label="Default select example">
+                        <option selected>اختر المدينة</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>    
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail33" style="font-size: 14px !important;" class="form-label " > الجنس  </label>
+                      <select class="form-select" style="padding: 0.7rem 0.75rem;" aria-label="Default select example">
+                        <option selected>ذكر </option>
+                        <option value="1">أنثى</option>
+                   
+                      </select>    
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important;" class="form-label " > ملاحظات  </label>
+                      <textarea name="" class="w-100 px-2 form-control  " rows="4" placeholder="ملاحظات"  ></textarea>
+            
+              
+                    </div>
+                  </div>
+                  <div class=" justify-content-end d-flex">
+                    <button type="submit  " class="btn btn-secondary fw-bold mt-3 py-2 px-4" >حفظ</button>
+                  </div>
+                </div>
+
+        
+            
+            </form>
+          </div>
+          
+        
+            </div>
+         
+          </div>
+        </div>
+      </div>
+      <div class="modal fade newmo addpro " id="exampleModalrate13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  " >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                <i class="bi bi-plus me-1"></i>
+      
+                تعديل
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body  py-4 px-4" > 
+          <div class="container">
+            <form action="#"  class="billingform">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important;" class="form-label " >الاسم  </label>
+                      <input type="text" class="form-control" id="exampleInputEmail4" placeholder=" الاسم" aria-describedby="emailHelp" required>
+              
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important;" class="form-label " >البريداللكتروني  </label>
+                      <input type="email" class="form-control" id="exampleInputEmail4" placeholder=" البريداللكتروني" aria-describedby="emailHelp" required>
+              
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="mobile_code" style="font-size: 14px !important;" class="form-label " > رقم الجوال   </label>
+                      <div class="form-group">
+                        <input type="text" id="mobile_code1" class="form-control" placeholder="رقم الجوال" name="name">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important; color: #8C8C8C;" class="form-label " >تاريخ الميلاد  </label>
+                      <input type="date" class="form-control" id="exampleInputEmail4" placeholder=" تاريخ الميلاد" aria-describedby="emailHelp" required>
+              
+                    </div>
+                  </div>
+                
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail33" style="font-size: 14px !important;" class="form-label " > المدينة  </label>
+                      <select class="form-select" style="padding: 0.7rem 0.75rem;" aria-label="Default select example">
+                        <option selected>اختر المدينة</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>    
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail33" style="font-size: 14px !important;" class="form-label " > الجنس  </label>
+                      <select class="form-select" style="padding: 0.7rem 0.75rem;" aria-label="Default select example">
+                        <option selected>ذكر </option>
+                        <option value="1">أنثى</option>
+                   
+                      </select>    
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="mb-3 ">
+                      <label for="exampleEmail4" style="font-size: 14px !important;" class="form-label " > ملاحظات  </label>
+                      <textarea name="" class="w-100 px-2 form-control  " rows="4" placeholder="ملاحظات"  ></textarea>
+            
+              
+                    </div>
+                  </div>
+                  <div class=" justify-content-end d-flex">
+                    <button type="submit  " class="btn btn-secondary fw-bold mt-3 py-2 px-4" >تعديل</button>
+                  </div>
+                </div>
+
+           
+     
+           
+            </form>
+          </div>
+          
+        
+            </div>
+         
+          </div>
+        </div>
+      </div>
+
+      
+  <header class="header" id="header" dir="rtl">
+    <div class="d-flex align-items-center">
+        <div class=" ps-0 me-2 header_toggle tog1" > <i class='bi bi-list' id="header-toggle"></i> </div>
+        <div class=" ps-0 me-2 header_toggle tog" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" > <i class='bi bi-list' id="header-toggle"></i> </div>
+        <h5 class="fw-bolder text-white">دكان</h5>
+    </div>
+   <div class=" d-flex align-items-center tophead   "  >
+     
+           <div class="formtop">
+            <form action="#" class=" search">
+              <div class="input-group topserch">
+                <input type="text" class="form-control w-50  mrgserch  " placeholder="البحث "  aria-label="Recipient's username" aria-describedby="button-addon2">
+                <select class="form-select m-0 w-25" aria-label="Default select example">
+                    <option selected>الطلبات</option>
+                    <div class="option1">saja</div>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <button class="btn btn-secondary py-2 px-4 " type="button" id="button-addon2">بحث</button>
+              
+              </div>
+              
+              
+             </form>
+            </div>
+
+            <div class="formtop1 text-center " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <i class="bi bi-search  text-white"></i>
+            </div>
+           <div class="d-flex align-items-center gap-3">
+               <div class="userdrop dropdow py-1  px-3 d-flex align-items-center gap-2">
+                   <div class="userimg">
+                       <img src="images/Star 15.png" class="img-fluid" alt="">
+                   </div>
+
+                   <p class="fw-bolder mb-0">علي شاهين</p>
+
+                   <i  class="fa fa-angle-down " ></i>
+                 <div class="dropdow-content py-2 px-3">
+                   <div class="d-flex flex-column">
+                       <p class="droptext">متجر العراق</p>
+                       <div class="d-flex gap-3">
+                           <div class="dropbtn1 py-1 px-3">
+                               <a href="#">باقة مني</a>
+                           </div>
+                           <div class="dropbtn2 py-1 px-2">
+                            <a href="#"> عرض المتجر</a>
+                        </div>
+
+                     
+                       </div>
+                        <div class="personfile mt-3">
+                            <a href="#"  > <i class='bi bi-person me-1'></i> <span >الملف الشخصي</span> </a>
+                        </div>
+                        <div class="logout my-3">
+                            <a href="#"  > <i class="fa fa-sign-out me-1"></i> <span >تسجيل الخروج</span> </a>
+                        </div>
+                        
+                      
+                   </div>
+                 </div>
+               </div>
+
+               <div class="userdrop1  text-center " data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <i class="bi bi-person fs-3 text-white"></i>
+            </div>
+
+               <div class="notet dropdow1"><i class="bi bi-bell"></i>
+                <div class="rednum">5</div>
+                <div class="dropdow-content1 ps-5">
+                 <div class="bg   ">
+                    <div class="d-flex py-3 px-3 bg1 flex-column" dir="rtl">
+                        <a href="#">
+                          <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                              <div class="d-flex align-items-center">
+                                 <div class="neworder me-2"><i class="bi bi-bell"></i></div>
+                                 <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم اضافة طلب جديد</h6>
+                              </div>
+                                      <i class="fa fa-angle-left"></i> 
+                                  </div>
+                        </a>
+                        <a href="#">
+                          <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                              <div class="d-flex align-items-center">
+                                 <div class="newclint me-2"><i class="bi bi-bell"></i></div>
+                                 <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم تسجيل عميل جديد</h6>
+                              </div>
+                                      <i class="fa fa-angle-left"></i> 
+                                  </div>
+                        </a>
+                        <a href="#">
+                          <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                              <div class="d-flex align-items-center">
+                                 <div class="newrate me-2"><i class="bi bi-bell"></i></div>
+                                 <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم اضافة تقييم جديد</h6>
+                              </div>
+                                      <i class="fa fa-angle-left"></i> 
+                                  </div>
+                        </a>
+                        <a href="#">
+                            <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                                <div class="d-flex align-items-center">
+                                   <div class="neworder me-2"><i class="bi bi-bell"></i></div>
+                                   <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم اضافة طلب جديد</h6>
+                                </div>
+                                        <i class="fa fa-angle-left"></i> 
+                                    </div>
+                          </a>
+                          <a href="#">
+                            <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                                <div class="d-flex align-items-center">
+                                   <div class="newclint me-2"><i class="bi bi-bell"></i></div>
+                                   <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم تسجيل عميل جديد</h6>
+                                </div>
+                                        <i class="fa fa-angle-left"></i> 
+                                    </div>
+                          </a>
+                          <a href="#">
+                            <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                                <div class="d-flex align-items-center">
+                                   <div class="newrate me-2"><i class="bi bi-bell"></i></div>
+                                   <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم اضافة تقييم جديد</h6>
+                                </div>
+                                        <i class="fa fa-angle-left"></i> 
+                                    </div>
+                          </a>
+                          <a href="#">
+                            <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                                <div class="d-flex align-items-center">
+                                   <div class="neworder me-2"><i class="bi bi-bell"></i></div>
+                                   <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم اضافة طلب جديد</h6>
+                                </div>
+                                        <i class="fa fa-angle-left"></i> 
+                                    </div>
+                          </a>
+                          <a href="#">
+                            <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                                <div class="d-flex align-items-center">
+                                   <div class="newclint me-2"><i class="bi bi-bell"></i></div>
+                                   <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم تسجيل عميل جديد</h6>
+                                </div>
+                                        <i class="fa fa-angle-left"></i> 
+                                    </div>
+                          </a>
+                          <a href="#">
+                            <div class="d-flex my-2  pb-2 justify-content-between align-items-center border-1 border-bottom">
+                                <div class="d-flex align-items-center">
+                                   <div class="newrate me-2"><i class="bi bi-bell"></i></div>
+                                   <h6 class="fw-bolder mb-0" style="font-size: 14px !important;">تم اضافة تقييم جديد</h6>
+                                </div>
+                                        <i class="fa fa-angle-left"></i> 
+                                    </div>
+                          </a>
+                          </div>
+                 </div>
+                </div>
+            </div>
+           </div>
+          
+      
+   </div>
+</header>
+<div class="l-navbar " id="nav-bar" >
+    <nav class="nav text-white ">
+        <div> <a href="#" class="nav_logo">
+             <div class="header_img "> <img src="images/472DA669-2BB0-43A6-AFBD-B4E635F1C234.PNG" alt=""> </div> <span class="nav_logo-name text-white">متجر العراق</span> </a>
+            <div class="nav_list"> 
+                <a href="conpanel.html" class="nav_link  "> <i class='bi bi-house-door nav_icon'></i> <span class="nav_name">الرئيسية</span> </a>
+                <a href="conpanel product.html" class="nav_link  "> <i class='bi bi-boxes nav_icon'></i> <span class="nav_name">المنتجات</span> </a>
+                <a href="conpanelkinds.html" class="nav_link  "> <i class='bi bi-grid nav_icon'></i> <span class="nav_name">التصنيفات</span> </a>
+        <div class="d-flex gap-5 "><a href="conpanelorders.html" class="nav_link  "> <i class='bi bi-card-checklist nav_icon'></i> <span class="nav_name">الطلبات</span> </a> <div class="mt-1 order-num">8</div></div>
+                <a href="conpanelclints .html" class="nav_link "> <i class='bi bi-person nav_icon'></i> <span class="nav_name">العملاء</span> </a>
+                <a href="conpanelreport.html" class="nav_link active "> <i class='bi bi-clipboard-data nav_icon'></i> <span class="nav_name">التقارير</span> </a>
+                <a href="conpanelpay.html" class="nav_link "> <i class='bi bi-wallet2 nav_icon'></i> <span class="nav_name">المحفظة والفواتير</span> </a>
+                <a href="conpanelpages.html" class="nav_link "> <i class='bi bi-person-video2 nav_icon'></i> <span class="nav_name">الصفحات التعريفية</span> </a>
+                <a href="conpanelrate.html" class="nav_link "> <i class='bi bi-star-half nav_icon'></i> <span class="nav_name">التقييمات</span> </a>
+                <a href="#" class="nav_link "> <i class='bi bi-building-gear nav_icon'></i> <span class="nav_name">إعداد المتجر</span> </a>
+                <a href="conpanel them.html" class="nav_link "> <i class='bi bi-shop nav_icon'></i> <span class="nav_name">تصميم المتجر</span> </a>
+                <a href="conpanel pag.html" class="nav_link "> <i class='bi bi-ui-checks-grid nav_icon'></i> <span class="nav_name">الباقات</span> </a>
+                <a href="conpanelaccount .html" class="nav_link "> <i class='bi bi-gear nav_icon'></i> <span class="nav_name">اعدادات الحساب</span> </a>
+   
+                </div>
+       
+    </nav>
+</div>
+
+
+<!--Container Main start-->
+<div class="height-100  main ms-md-5 pt-5 " >
+   <div class="container rate">
+       <h3 class="fw-lighter">التقارير</h3>
+    
+    
+<div class="bg-white mt-5 p-3">
+
+  <h5 class="fw-bolder">نوع التقارير</h5>
+  
+
+  <ul class="nav nretabs1 mt-4 flex-row justify-content-evenly pb-0 nav-pills " id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">المبيعات</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">المنتجات</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">العملاء</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact1-tab" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact1" aria-selected="false">الأكثر طلبا</button>
+    </li>
+  </ul>
+ 
+
+</div>
+<div class="tab-content mt-5 p-3 text-dark" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="row  justify-content-between align-content-center">
+      <div class="col-lg-7 bg-white">
+        <div style="width:300px;">
+          <canvas id="myChart" class="div"  ></canvas>
+        </div>
+       
+      </div>
+
+      <div class="col-lg-4 bg-white">
+        <div style="width:300px;">
+          <canvas id="myChart" class="div"  ></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="acortitle text-dark d-flex py-2 px-4 " >
+        <h5 class="fw-bolder">المبيعات</h5>
+      </div>
+      <div class="acortitle1 text-dark  py-4 px-4">
+        <div class="d-flex justify-content-between px-sm-2 pb-1 border-bottom border-1 mb-4 mt-2 ">
+          <p class="pagename">  اجمالي المبيعات</p>
+         <p>50</p>
+          
+        </div>
+      <div class="d-flex justify-content-between px-sm-2 pb-1 border-bottom border-1 mb-4 mt-2 ">
+        <p class="pagename">   تكاليف المنتجات</p>
+       <p>50</p>
+        
+      </div>
+      <div class="d-flex justify-content-between px-sm-2 pb-1  border-bottom border-1 mb-4 ">
+        <p class="pagename">  الشحن</p>
+        <p>50</p>
+      </div>
+      <div class="d-flex justify-content-between px-sm-2 pb-1  border-bottom border-1 mb-4 ">
+        <p class="pagename">رسوم الدفع الالكتروني </p>
+        <p>50</p>
+      </div>
+      
+      </div>
+      <div class="acortitle justify-content-between  text-dark d-flex py-2 px-4 " >
+        <p class="pagename"> صافي المبيعات</p>
+        <p>50</p>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="row align-content-center">
+      <div class="col-lg-7">
+        <div class="acortitle text-dark d-flex py-2 px-4 " >
+          <h5 class="fw-bolder">المنتجات</h5>
+        </div>
+        <div class="acortitle1 text-dark  py-4 px-4">
+        <div class="d-flex justify-content-between px-sm-2 pb-1 border-bottom border-1 mb-4 mt-2 ">
+          <p class="pagename"> اجمالي عدد المنتجات</p>
+         <p>50</p>
+          
+        </div>
+        <div class="d-flex justify-content-between px-sm-2 pb-1  border-bottom border-1 mb-4 ">
+          <p class="pagename"> تكاليف المنتجات</p>
+          <p>50</p>
+        </div>
+        <div class="d-flex justify-content-between px-sm-2 pb-1  border-bottom border-1 mb-4 ">
+          <p class="pagename">المبيعات </p>
+          <p>50</p>
+        </div>
+        
+        </div>
+        <div class="acortitle justify-content-between  text-dark d-flex py-2 px-4 " >
+          <p class="pagename">صافي الربح</p>
+          <p>50</p>
+        </div>
+      </div>
+
+      <div class="col-lg-5 bg-white">
+        <div style="width:300px;">
+          <canvas id="myChart" class="div"  ></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+    <div class="row align-content-center">
+      <div class="col-lg-7">
+        <div class="acortitle text-dark d-flex py-2 px-4 " >
+          <h5 class="fw-bolder">العملاء</h5>
+        </div>
+        <div class="acortitle1 text-dark  py-4 px-4">
+        <div class="d-flex justify-content-between px-sm-2 pb-1 border-bottom border-1 mb-4 mt-2 ">
+          <p class="pagename"> عدد العملاء</p>
+         <p>50</p>
+          
+        </div>
+        <div class="d-flex justify-content-between px-sm-2 pb-1  border-bottom border-1 mb-4 ">
+          <p class="pagename"> عدد العملاء الذين اشتروا أكثر من مرة </p>
+          <p>50</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 bg-white">
+        <div style="width:300px;">
+          <canvas id="myChart" class="div"  ></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="row newtable   my-5">
+      
+      <table id="example1" class="table table-striped  " dir="rtl" style="width:100%">
+          <thead  class="">
+              <tr>
+                  <th class="ce1"> <input type="checkbox" name="" id=""> </th>
+                  <th>الإسم</th>
+                  <th>تاريخ التسجيل</th>
+                  <th>  رقم الجوال</th>
+                  <th>البريد الإلكتروني</th>
+                  <th>عدد الطلبات</th>
+                  <th class="ce2">  اجراءات</th>
+                  
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><input type="checkbox" name="" id=""></td>
+                  <td>محمد علي الشحي </td>
+                  <td>8/10/2022</td>
+                  <td>0564842446</td>
+                  <td>ali@gmail.com</td>
+                  <td>4</td>
+              
+                  <td class="">
+                    <div class="dropdow2">
+                      <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+                    <div class="dropdow-content2    p-2">
+                   <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate110">
+                    <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                      <i class="bi bi-eye"></i>
+                      <span>عرض</span>
+                    </div>
+                   </a>
+                 <a data-bs-toggle="modal" data-bs-target="#exampleModalrate13">
+                  <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                    <i class="bi bi-pencil-square"></i>
+                    <span>تعديل</span>
+                  </div>
+                 </a>
+                     <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                      <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                        <i class="bi bi-trash"></i>
+                        <span>حذف</span>
+                      </div>
+                     </a>
+                    </div> 
+                    </div>
+                  </td>
+                 
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>محمد علي الشحي </td>
+                <td>8/10/2022</td>
+                <td>0564842446</td>
+                <td>ali@gmail.com</td>
+                <td>4</td>
+            
+                <td class="">
+                  <div class="dropdow2">
+                    <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+                  <div class="dropdow-content2    p-2">
+                 <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate110">
+                  <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                    <i class="bi bi-eye"></i>
+                    <span>عرض</span>
+                  </div>
+                 </a>
+               <a data-bs-toggle="modal" data-bs-target="#exampleModalrate13">
+                <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                  <i class="bi bi-pencil-square"></i>
+                  <span>تعديل</span>
+                </div>
+               </a>
+                   <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                    <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                      <i class="bi bi-trash"></i>
+                      <span>حذف</span>
+                    </div>
+                   </a>
+                  </div> 
+                  </div>
+                </td>
+               
+            </tr>
+  
+            <tr>
+              <td><input type="checkbox" name="" id=""></td>
+              <td>محمد علي الشحي </td>
+              <td>8/10/2022</td>
+              <td>0564842446</td>
+              <td>ali@gmail.com</td>
+              <td>4</td>
+          
+              <td class="">
+                <div class="dropdow2">
+                  <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+                <div class="dropdow-content2    p-2">
+               <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate110">
+                <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                  <i class="bi bi-eye"></i>
+                  <span>عرض</span>
+                </div>
+               </a>
+             <a data-bs-toggle="modal" data-bs-target="#exampleModalrate13">
+              <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                <i class="bi bi-pencil-square"></i>
+                <span>تعديل</span>
+              </div>
+             </a>
+                 <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                  <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                    <i class="bi bi-trash"></i>
+                    <span>حذف</span>
+                  </div>
+                 </a>
+                </div> 
+                </div>
+              </td>
+             
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>محمد علي الشحي </td>
+            <td>8/10/2022</td>
+            <td>0564842446</td>
+            <td>ali@gmail.com</td>
+            <td>4</td>
+        
+            <td class="">
+              <div class="dropdow2">
+                <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+              <div class="dropdow-content2    p-2">
+             <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate110">
+              <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                <i class="bi bi-eye"></i>
+                <span>عرض</span>
+              </div>
+             </a>
+           <a data-bs-toggle="modal" data-bs-target="#exampleModalrate13">
+            <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+              <i class="bi bi-pencil-square"></i>
+              <span>تعديل</span>
+            </div>
+           </a>
+               <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                  <i class="bi bi-trash"></i>
+                  <span>حذف</span>
+                </div>
+               </a>
+              </div> 
+              </div>
+            </td>
+           
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>محمد علي الشحي </td>
+          <td>8/10/2022</td>
+          <td>0564842446</td>
+          <td>ali@gmail.com</td>
+          <td>4</td>
+      
+          <td class="">
+            <div class="dropdow2">
+              <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+            <div class="dropdow-content2    p-2">
+           <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate110">
+            <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+              <i class="bi bi-eye"></i>
+              <span>عرض</span>
+            </div>
+           </a>
+         <a data-bs-toggle="modal" data-bs-target="#exampleModalrate13">
+          <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+            <i class="bi bi-pencil-square"></i>
+            <span>تعديل</span>
+          </div>
+         </a>
+             <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+              <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                <i class="bi bi-trash"></i>
+                <span>حذف</span>
+              </div>
+             </a>
+            </div> 
+            </div>
+          </td>
+         
+      </tr>
+
+         
+               
+              
+           
+         
+          </tbody>
+         
+      </table>
+      
+     </div>
+  </div>
+  <div class="tab-pane fade text-dark" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact1-tab">
+    
+
+    <h5 class="fw-bolder text-dark">الأكثر طلباً</h5>
+
+    <div class="row newtable   mt-4">
+      
+      <table id="example" class="table table-striped  " dir="rtl" style="width:100%">
+          <thead  class="">
+              <tr>
+                  <th class="ce1"> <input type="checkbox" name="" id=""> </th>
+                  <th>المنتج</th>
+                  <th>الاسم</th>
+                  <th> رمز المنتج</th>
+                  <th>الكمية</th>
+                  <th>السعر</th>
+                  <th>عدد الطلبات </th>
+                  <th class="ce2">  اجراءات</th>
+                  
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><input type="checkbox" name="" id=""></td>
+                  <td>001234 </td>
+                  <td>ورد أحمر صناعي</td>
+                  <td>78888888</td>
+                  <td>80</td>
+                  <td>05</td>
+                  <td>
+                    259
+                  </td>
+                  <td class="">
+                    <div class="dropdow2">
+                      <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+                    <div class="dropdow-content2    p-2">
+                   <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate11">
+                    <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                      <i class="bi bi-eye"></i>
+                      <span>عرض</span>
+                    </div>
+                   </a>
+                 <a href="conpanel editproduct.html">
+                  <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                    <i class="bi bi-pencil-square"></i>
+                    <span>تعديل</span>
+                  </div>
+                 </a>
+                     <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                      <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                        <i class="bi bi-trash"></i>
+                        <span>حذف</span>
+                      </div>
+                     </a>
+                    </div> 
+                    </div>
+                  </td>
+                 
+              </tr>
+              <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>001234 </td>
+                <td>ورد أحمر صناعي</td>
+                <td>78888888</td>
+                <td>80</td>
+                <td>05</td>
+                <td>
+                  259
+                </td>
+                <td class="">
+                  <div class="dropdow2">
+                    <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+                  <div class="dropdow-content2    p-2">
+                 <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate11">
+                  <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                    <i class="bi bi-eye"></i>
+                    <span>عرض</span>
+                  </div>
+                 </a>
+               <a href="conpanel editproduct.html">
+                <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                  <i class="bi bi-pencil-square"></i>
+                  <span>تعديل</span>
+                </div>
+               </a>
+                   <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                    <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                      <i class="bi bi-trash"></i>
+                      <span>حذف</span>
+                    </div>
+                   </a>
+                  </div> 
+                  </div>
+                </td>
+               
+            </tr>
+
+            <tr>
+              <td><input type="checkbox" name="" id=""></td>
+              <td>001234 </td>
+              <td>ورد أحمر صناعي</td>
+              <td>78888888</td>
+              <td>80</td>
+              <td>05</td>
+              <td>
+                259
+              </td>
+              <td class="">
+                <div class="dropdow2">
+                  <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+                <div class="dropdow-content2    p-2">
+               <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate11">
+                <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                  <i class="bi bi-eye"></i>
+                  <span>عرض</span>
+                </div>
+               </a>
+             <a href="conpanel editproduct.html">
+              <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                <i class="bi bi-pencil-square"></i>
+                <span>تعديل</span>
+              </div>
+             </a>
+                 <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                  <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                    <i class="bi bi-trash"></i>
+                    <span>حذف</span>
+                  </div>
+                 </a>
+                </div> 
+                </div>
+              </td>
+             
+          </tr>
+
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>001234 </td>
+            <td>ورد أحمر صناعي</td>
+            <td>78888888</td>
+            <td>80</td>
+            <td>05</td>
+            <td>
+              259
+            </td>
+            <td class="">
+              <div class="dropdow2">
+                <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+              <div class="dropdow-content2    p-2">
+             <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate11">
+              <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                <i class="bi bi-eye"></i>
+                <span>عرض</span>
+              </div>
+             </a>
+           <a href="conpanel editproduct.html">
+            <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+              <i class="bi bi-pencil-square"></i>
+              <span>تعديل</span>
+            </div>
+           </a>
+               <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+                <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                  <i class="bi bi-trash"></i>
+                  <span>حذف</span>
+                </div>
+               </a>
+              </div> 
+              </div>
+            </td>
+           
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" name="" id=""></td>
+          <td>001234 </td>
+          <td>ورد أحمر صناعي</td>
+          <td>78888888</td>
+          <td>80</td>
+          <td>05</td>
+          <td>
+            259
+          </td>
+          <td class="">
+            <div class="dropdow2">
+              <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+            <div class="dropdow-content2    p-2">
+           <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate11">
+            <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+              <i class="bi bi-eye"></i>
+              <span>عرض</span>
+            </div>
+           </a>
+         <a href="conpanel editproduct.html">
+          <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+            <i class="bi bi-pencil-square"></i>
+            <span>تعديل</span>
+          </div>
+         </a>
+             <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+              <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+                <i class="bi bi-trash"></i>
+                <span>حذف</span>
+              </div>
+             </a>
+            </div> 
+            </div>
+          </td>
+         
+      </tr>
+
+      <tr>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>001234 </td>
+        <td>ورد أحمر صناعي</td>
+        <td>78888888</td>
+        <td>80</td>
+        <td>05</td>
+        <td>
+          259
+        </td>
+        <td class="">
+          <div class="dropdow2">
+            <i class="bi bi-three-dots-vertical fs-6 dropbtn3"></i>
+          <div class="dropdow-content2    p-2">
+         <a  data-bs-toggle="modal" data-bs-target="#exampleModalrate11">
+          <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+            <i class="bi bi-eye"></i>
+            <span>عرض</span>
+          </div>
+         </a>
+       <a href="conpanel editproduct.html">
+        <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+          <i class="bi bi-pencil-square"></i>
+          <span>تعديل</span>
+        </div>
+       </a>
+           <a data-bs-toggle="modal" data-bs-target="#exampleModalrate10">
+            <div class="d-flex flex-row my-1 justify-content-around align-items-center">
+              <i class="bi bi-trash"></i>
+              <span>حذف</span>
+            </div>
+           </a>
+          </div> 
+          </div>
+        </td>
+       
+    </tr>
+
+
+      
+         
+               
+              
+           
+         
+          </tbody>
+         
+      </table>
+      
+     </div>
+  </div>
+
+</div>
+
+   
+   </div>
+</div>
+
+
+
+
+     
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: [
+    'Red',
+    'Blue',
+    'Yellow',
+    'Yellow'
+  ],
+  
+  datasets: [{
+    label: 'My First Dataset',
+    data: [38.6, 30.8,8.1, 22.5],
+    backgroundColor: [
+      'rgb(28, 28, 28)',
+      'rgb(186, 237, 189)',
+      'rgb(149, 164, 252)',
+      'rgb(198, 199, 248)'
+
+    ],
+    hoverOffset: 4
+    ,
+    borderRadius : 30
+
+  
+  }]
+    },
+    options: {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: 'right',
+    
+       
+      },
+      title: {
+        display: true,
+    
+      }
+    }
+    }
+  });
+
+
+ 
+</script>
+     
+
+        <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+    <script>
+
+      
+      document.addEventListener("DOMContentLoaded", function(event) {
+       
+       const showNavbar = (toggleId, navId, bodyId, headerId) =>{
+       const toggle = document.getElementById(toggleId),
+       nav = document.getElementById(navId),
+       bodypd = document.getElementById(bodyId),
+       headerpd = document.getElementById(headerId)
+       
+       // Validate that all variables exist
+       if(toggle && nav && bodypd && headerpd){
+       toggle.addEventListener('click', ()=>{
+       // show navbar
+       nav.classList.toggle('show1')
+       // change icon
+       // add padding to body
+       bodypd.classList.toggle('body-pd')
+       // add padding to header
+      
+       })
+       }
+       }
+       
+       showNavbar('header-toggle','nav-bar','body-pd','header')
+       
+       /*===== LINK ACTIVE =====*/
+       const linkColor = document.querySelectorAll('.nav_link')
+       
+       function colorLink(){
+       if(linkColor){
+       linkColor.forEach(l=> l.classList.remove('active'))
+       this.classList.add('active')
+       }
+       }
+       linkColor.forEach(l=> l.addEventListener('click', colorLink))
+       
+        // Your code to run since DOM is loaded and ready
+       });
+
+  
+    </script>
+     
+   
+
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+     <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+     <script type="text/javascript" language="javascript" src="https://nightly.datatables.net/responsive/js/dataTables.responsive.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="https://nightly.datatables.net/js/jquery.dataTables.min.js">
+    </script>
+         <script>
+             
+     $(document).ready(function () {
+         $('#example').DataTable({
+            responsive:true,
+            responsive: {
+    breakpoints: [
+      {name: 'bigdesktop', width: Infinity},
+      {name: 'tabletl', width: 1488},
+      {name: 'btwtabllandp', width: 848},
+      {name: 'tabletp', width: 768},
+      {name: 'mobilel', width: 480},
+      {name: 'mobilep', width: 320}
+    ]
+  },
+  paging: false,
+        ordering: false,
+        info: false,
+        searching: false,
+        
+         });
+         $('#example1').DataTable({
+            responsive:true,
+            responsive: {
+    breakpoints: [
+      {name: 'bigdesktop', width: Infinity},
+      {name: 'tabletl', width: 1488},
+      {name: 'btwtabllandp', width: 848},
+      {name: 'tabletp', width: 768},
+      {name: 'mobilel', width: 480},
+      {name: 'mobilep', width: 320}
+    ]
+  },
+  paging: false,
+        ordering: false,
+        info: false,
+        searching: false,
+        
+         });
+     });
+     </script>
+
+
+</body>
+</html>

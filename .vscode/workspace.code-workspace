@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Saja awadallah",
+			"path": "."
+		},
+		{
+			"name": "fontawesome-free-6.2.1-web",
+			"path": "..\\..\\..\\Downloads\\fontawesome-free-6.2.1-web\\fontawesome-free-6.2.1-web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
